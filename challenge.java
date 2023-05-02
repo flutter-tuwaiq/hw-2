@@ -4,18 +4,15 @@ public class challenge
 		
 		String star="*";
 		
-		        for(int i=0;i<9;i++){  
-		            if(i<3)
-		            {
-		        System.out.println(star);
-		        star=star+"*"; 
-		        }
-		        else if (i>4){
-		            System.out.println(star);
-		          star= star.substring(0, star.length() - 1); 
-		            
-		        }
-		        
-		            }
+		    for(int i=0;i<9;i++){  
+		    if(i<3){
+		    System.out.println(star);
+		    star=star+"*"; 
+		    }
+		    else if (i>4){
+		    System.out.println(star);
+		    star= star.substring(0, star.length() - 1); 
+		    }
+		}
 	}
-	}
+}
