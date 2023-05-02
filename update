@@ -1,0 +1,9 @@
+n=int(input("enter number of lines:"))
+i=1
+dir=1
+while (i>0):
+    print('* ' * i )
+    i+=dir
+    if (i==n):
+        dir=-1
+        
