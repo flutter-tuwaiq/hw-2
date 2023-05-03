@@ -18,7 +18,7 @@ public class Hinetb {¸
      */
     public static void main(String[] args) {
         
-String ii ="*";
+String ii ="";
 		       
 // TODO code application logic here
 for(int i=0;i<9;i++){  
