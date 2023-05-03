@@ -18,18 +18,18 @@ public class Hinetb {¸
      */
     public static void main(String[] args) {
         
-// TODO code application logic here
 String ii ="*";
 		       
+// TODO code application logic here
 for(int i=0;i<9;i++){  
-		      if(i<4)
+		      if(i<=4)
 		            {
 		        System.out.println("*"+ii);ii=ii+"*";
 		        }
-		        else if (i>3){
-		            System.out.println(ii);
+		         if (i>3){
 		          ii= ii.substring(0, ii.length()- 1);
-		            
+		               System.out.println(ii);
+
 		        }
 		        
 		            }
